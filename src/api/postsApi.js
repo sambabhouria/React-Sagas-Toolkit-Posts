@@ -1,4 +1,4 @@
-import BASE_URL from "api/baseUrls.const";
+import BASE_URL from "./baseUrls.const";
 
 export async function fetchPosts() {
   const response = await fetch(`${BASE_URL.MAIN}/posts`);
